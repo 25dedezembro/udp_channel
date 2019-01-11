@@ -1,0 +1,11 @@
+{application, udp_channel, [
+    {description, "Open udp channel for erlang applications"},
+    {vsn, git},
+    {registered, []},
+    {applications, [kernel,
+                    stdlib]},
+    {env, []},
+    {maintainers, ["Natal Vieira de Souza Neto"]},
+    {licenses, ["Apache License 2.1"]},
+    {links, [{"Github", "https://github.com/25dedezembro/udp_channel"}]}
+]}.
